@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="statistic" />
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <Pane>
+         <children>
+            <VBox alignment="CENTER" layoutX="94.0" layoutY="129.0" prefHeight="290.0" prefWidth="214.0" spacing="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" prefWidth="120.0" text="Game 1" textOverrun="CLIP">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Game 2">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Game 3">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Game 4">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Game 5">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

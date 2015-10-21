@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="v.makarov.gamememory.view.MainMenuController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fill="#384a5b" layoutX="200.0" layoutY="263.0" radius="57.0" stroke="BLACK" strokeType="INSIDE" />
+         </children></Pane>
+   </center>
+   <bottom>
+      <Button fx:id="back" mnemonicParsing="false" onAction="#backButon" prefHeight="25.0" prefWidth="89.0" text="Back" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="50.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+</BorderPane>

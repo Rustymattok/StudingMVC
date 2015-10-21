@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamememory.view.MainMenuController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="128.0" layoutY="200.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="145.0" spacing="20.0">
+                     <children>
+                        <Button fx:id="newPlayer" alignment="CENTER" contentDisplay="CENTER" disable="true" mnemonicParsing="false" onAction="#newPlayerButtonCliked" prefHeight="25.0" prefWidth="120.0" text="New Player">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="login" contentDisplay="CENTER" mnemonicParsing="false" onAction="#loginBar" prefHeight="25.0" prefWidth="120.0" text="Login" textOverrun="CENTER_ELLIPSIS">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="exit" contentDisplay="CENTER" mnemonicParsing="false" onAction="#exitButtonCliked" prefHeight="25.0" prefWidth="120.0" text="EXIT">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Pane>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

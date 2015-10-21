@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gamememory.view.LoginMenuController">
+   <children>
+      <VBox layoutX="76.0" layoutY="52.0" spacing="15.0" style="-fx-border-radius: 10;">
+         <children>
+            <TextField fx:id="textNme" layoutX="76.0" layoutY="52.0" promptText="Profile Name" />
+            <TextField fx:id="textPass" layoutX="76.0" layoutY="87.0" promptText="Password" />
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="66.0" layoutY="138.0" spacing="50.0">
+         <children>
+            <Button fx:id="submit" layoutX="76.0" layoutY="138.0" mnemonicParsing="false" onAction="#submitButton" prefHeight="25.0" prefWidth="60.0" text="SUBMIT" />
+            <Button fx:id="back" layoutX="173.0" layoutY="138.0" mnemonicParsing="false" onAction="#backButon" prefHeight="25.0" prefWidth="60.0" text="BACK" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
